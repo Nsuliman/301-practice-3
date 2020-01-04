@@ -29,5 +29,10 @@ server.get('/data', (req,res)=>
     res.status(200).json(object);
 });
 
+//Error Route 
+server.use('*', (req,res) =>
+{
+    res.status(404).send('Not Found');
+});
 
 server.listen(PORT , ()=> console.log(`Listens on port ${PORT}`));
