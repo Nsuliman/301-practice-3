@@ -15,7 +15,10 @@ server.use(cors());
 
 // Main Routes
 
-
+server.get('/', (req,res) => 
+{
+    res.status(200).send('Home Page');
+});
 
 
 
