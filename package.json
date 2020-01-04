@@ -1,0 +1,25 @@
+{
+  "name": "301-practice-3",
+  "version": "1.0.0",
+  "description": "301-practice-3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nsuliman/301-practice-3.git"
+  },
+  "author": "Nawal Suliman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nsuliman/301-practice-3/issues"
+  },
+  "homepage": "https://github.com/Nsuliman/301-practice-3#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
